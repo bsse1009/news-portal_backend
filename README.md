@@ -1,10 +1,10 @@
 # News Api is a Backend for NewsPortal App 
 
 ## Prerequisites
-.NET Core SDK 3.0 or later
-Visual Studio Code
-C# for Visual Studio Code
-MongoDB
+1. [.NET Core SDK 3.0 or later](https://dotnet.microsoft.com/download/dotnet)
+2. [Visual Studio Code](https://code.visualstudio.com/download)
+3. [C# for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+4. [MongoDB](https://docs.mongodb.com/manual/administration/install-community/)
 
 
 ## Configure MongoDB
