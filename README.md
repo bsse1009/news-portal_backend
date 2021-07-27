@@ -19,34 +19,34 @@ mongod --dbpath <data_directory_path>
 
 Open another command shell instance. Connect to the default test database by running the following command:
 ```bash
-> mongo
+mongo
 ```
 
 Run the following in a command shell:
 ```bash
-> use NewsDb
+use NewsDb
 ```
 
 If it doesn't already exist, a database named NewsDb is created. If the database does exist, its connection is opened for transactions.
 
 Create a News collection using following command:
 ```bash
-> db.createCollection('Newses')
+db.createCollection('Newses')
 ```
 
 Create a Users collection using following command:
 ```bash
-> db.createCollection('Users')
+db.createCollection('Users')
 ```
 
 Insert an admin_user for the Users using the following command:
 ```bash
-> db.Users.insert({"name": "Ibrahim Khalil","email": "bsse1009@iit.du.ac.bd","password": "1234","type": "admin"})
+db.Users.insert({"name": "Ibrahim Khalil","email": "bsse1009@iit.du.ac.bd","password": "1234","type": "admin"})
 ```
 
 View the document in database:
 ```bash
-> db.Users.find({}).pretty()
+db.Users.find({}).pretty()
 ```
 
 
@@ -64,16 +64,16 @@ View the document in database:
 
 .NET CLI
 ```bash
-> dotnet add package MongoDB.Driver --version 2.13.0
+dotnet add package MongoDB.Driver --version 2.13.0
 ```
 
 4. Install Cors
 ```bash
-> Install-Package Microsoft.AspNet.WebApi.Cors
+Install-Package Microsoft.AspNet.WebApi.Cors
 ```
 
 
 ## Build And Run:
 ```bash
-> dotnet run
+dotnet run
 ```
